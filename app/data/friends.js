@@ -1,8 +1,8 @@
 // This is what the user will be compared to
 var friends = [
    {
-      "name":"",
-      "photo":"",
+      "name":"Vanilla Cupcake",
+      "photo":"../assets/images/vanilla-cupcake.jpg",
       "scores":[
          "5",
          "1",
@@ -17,8 +17,8 @@ var friends = [
       ]
    },
    {
-      "name":"",
-      "photo":"",
+      "name":"Chocolate Cupcake",
+      "photo":"../assets/images/chocolate-cupcake.jpg",
       "scores":[
          "4",
          "2",
@@ -33,8 +33,8 @@ var friends = [
       ]
    },
    {
-      "name":"",
-      "photo":"",
+      "name":"Strawberry Cupcake",
+      "photo":"../assets/images/strawberry-cupcake.jpg",
       "scores":[
          "5",
          "2",
@@ -49,8 +49,8 @@ var friends = [
       ]
    },
    {
-      "name":"",
-      "photo":"",
+      "name":"Red Velvet",
+      "photo":"../assets/images/red-velvet-cupcake.jpg",
       "scores":[
          "3",
          "3",
@@ -65,8 +65,8 @@ var friends = [
       ]
    },
 	{
-	   "name":"",
-	   "photo":"",
+	   "name":"Oreo Cupcake",
+	   "photo":"../assets/images/oreo-cupcake.jpg",
 	   "scores":[
 	      "4",
 	      "3",
@@ -81,8 +81,8 @@ var friends = [
 	   ]
 	},
 	{
-	   "name":"",
-	   "photo":"",
+	   "name":"Swirl Cupcake",
+	   "photo":"../assets/images/swirl-cupcake.jpg",
 	   "scores":[
 	      "4",
 	      "4",
