@@ -4,11 +4,11 @@ var friends = require('../data/friends.js');
 
 // ROUTING
 module.exports = function(app){
-	app.get('../data/friends.js', function(req, res){
+	app.get('/friends', function(req, res){
 		res.json(friends);
 	});
 
-	app.post('../data/friends.js', function(req, res){
+	app.post('/friends', function(req, res){
 
 		var bestMatch = {
 			name: "",
