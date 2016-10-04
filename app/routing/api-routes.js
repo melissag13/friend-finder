@@ -1,6 +1,6 @@
 
 // LOAD DATA
-var friends 		= require('../data/friends.js');
+var friends = require('../data/friends.js');
 
 // ROUTING
 module.exports = function(app){
@@ -27,13 +27,13 @@ module.exports = function(app){
 		var totalDifference = 0;
 
 		// Here we loop through all the friend possibilities in the database.
-		for  (var i=0; i< friends.length; i++) {
+		for  (var i = 0; i< friends.length; i++) {
 
 			console.log(friends[i].name);
 			totalDifference = 0;
 
 			// We then loop through all the scores of each friend
-			for (var j=0; j< friends[i].scores[j]; j++){
+			for (var j = 0; j< friends[i].scores[j]; j++){
 
 				// We calculate the difference between the scores and sum them into the totalDifference
 				totalDifference += Math.abs(parseInt(userScores[j]) - parseInt(friends[i].scores[j]));
